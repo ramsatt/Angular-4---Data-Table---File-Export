@@ -19,9 +19,21 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "assets/css/jquery.dataTables.min.css",
+        "assets/css/buttons.dataTables.min.css"
       ],
-      "scripts": [],
+      "scripts": [
+      "assets/js/jquery-1.12.4.js",
+      "assets/js/jquery.dataTables.min.js",
+        "assets/js/dataTables.buttons.min.js",
+        "assets/js/buttons.flash.min.js",
+        "assets/js/jszip.min.js",
+        "assets/js/pdfmake.min.js",
+        "assets/js/vfs_fonts.js",
+        "assets/js/buttons.html5.min.js",
+        "assets/js/buttons.print.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
